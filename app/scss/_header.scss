@@ -1,0 +1,51 @@
+header {
+  .booking {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    padding: 2rem 10rem;
+    border: 1px solid pink;
+
+    .logo {
+      width: 180px;
+      border: 1px solid red;
+      margin: auto 0;
+
+      img {
+        vertical-align: middle;
+        margin: auto;
+        width: 100%;
+        border: 1px solid green;
+      }
+    }
+
+    .info {
+      .phone {
+        img {
+        }
+      }
+    }
+
+    .map {
+      height: 100%;
+
+      img {
+        height: 30%;
+      }
+    }
+
+    .booking-button {
+      margin: auto 0;
+
+      button {
+        vertical-align: middle;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+        color: black;
+        background-color: white;
+        padding: 1rem 1.5rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
